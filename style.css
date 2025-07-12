@@ -1,0 +1,75 @@
+/* General Reset and Base */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 60px;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Header Logo Text */
+  .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+  
+  /* Hero Content Layout */
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  /* Hero Text Styling */
+  .hero-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 500px;
+    margin: 20px 0;
+  }
+  
+  /* Sign-up Button */
+  .hero-text button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
